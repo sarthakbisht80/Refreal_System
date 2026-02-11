@@ -13,6 +13,7 @@ export default function Login() {
   const [loading, setLoading] = useState(false);
 
   const handleSubmit = async (e) => {
+    //preventing page reload after submiting
     e.preventDefault();
     setError("");
     setLoading(true);
@@ -24,7 +25,7 @@ export default function Login() {
         login(res.data.token);
         navigate("/dashboard");
       } else {
-        setError("Invalid response from server. Please try again.");
+        setError("Invalid response from server. Please try again later.");
       }
     } catch (err) {
       console.error("Login error:", err);
