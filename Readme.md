@@ -114,8 +114,7 @@ Password: Sarthak@#123
 ## 🌐 Access URLs
 
 ```
-Frontend (Local): http://localhost:5173
-Backend (Live): https://refreal-system.onrender.com
+Live: refreal-system.vercel.app/
 ```
 
 ---
