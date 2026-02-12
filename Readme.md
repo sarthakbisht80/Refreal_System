@@ -111,10 +111,6 @@ Password: Sarthak@#123
 
 ---
 
-## 🌐 Access URLs
 
-```
-Live: refreal-system.vercel.app/
-```
 
 ---
