@@ -111,8 +111,8 @@ https://refreal-system.onrender.com
 ## 🔑 Demo Login Credentials
 
 ```
-Email: demo@referral.com
-Password: Demo@123
+Email: bishtsarthak80@gmail.com
+Password: Sarthak@#123
 ```
 
 ---
