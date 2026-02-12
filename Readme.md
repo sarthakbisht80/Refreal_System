@@ -98,13 +98,7 @@ npm install
 npm run dev
 ```
 
----
 
-## 🌐 Live Backend (Render)
-
-```
-https://refreal-system.onrender.com
-```
 
 ---
 
