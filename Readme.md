@@ -7,7 +7,7 @@ a clean and simple dashboard.
 </p>
 
 <p align="center">
-  <img src="/frontend/public/Dashboard.png" alt="Candidate Referral Dashboard" height="400" width="400" />
+  <img src="./Frontend/public/Dashboard.png" alt="Candidate Referral Dashboard" height="400" width="400" />
 </p>
 
 ---
@@ -16,33 +16,25 @@ a clean and simple dashboard.
 
 The **Candidate Referral Management System** is a full-stack application inspired
 by real-world hiring platforms like Worko. It enables authenticated users to
-refer candidates for job openings, track their hiring status, and view basic
-recruitment metrics.
+refer candidates for job openings, track their hiring status, and view recruitment metrics.
 
 The project demonstrates **end-to-end full-stack development**, including
 authentication, REST APIs, database integration, and a responsive React UI.
-
-This system is suitable for **HR tools, internal hiring platforms, and referral-based recruitment workflows**.
 
 ---
 
 ## 🚀 Key Features
 
-- 🔐 User authentication (Signup & Login using JWT)
-- 👤 Refer new candidates with job details
-- 📄 Optional resume upload (PDF only – local storage)
-- 📋 Dashboard displaying all referred candidates
-- 🔍 Search and filter candidates by job title or status
-- 🔄 Update candidate status (Pending → Reviewed → Hired)
-- 📊 Metrics dashboard:
-  - Total candidates
-  - Candidates by status (Pending / Reviewed / Hired)
-- ⚛️ Modern and responsive frontend built with React
-- 🌐 RESTful APIs using Node.js & Express
-- 🗄️ MongoDB database for persistent storage
-- 🚨 Proper validation and error handling
-- 🧠 Clean folder structure & separation of concerns
-- ⚡ Fast client–server communication using Axios
+- 🔐 JWT-based authentication (Signup & Login)
+- 👤 Refer candidates with job details
+- 📄 Resume upload (PDF only – local storage)
+- 📋 Dashboard with candidate listing
+- 🔍 Search & filter by job title or status
+- 🔄 Update status (Pending → Reviewed → Hired)
+- 📊 Recruitment metrics dashboard
+- 🌐 RESTful APIs (Node.js + Express)
+- 🗄️ MongoDB database integration
+- ⚡ Axios for API communication
 
 ---
 
@@ -53,25 +45,30 @@ This system is suitable for **HR tools, internal hiring platforms, and referral-
 - JavaScript (ES6+)
 - React Router DOM
 - Axios
-- CSS (responsive, simple UI)
+- CSS
 
 ### Backend
 - Node.js
 - Express.js
 - MongoDB (Mongoose)
 - JWT Authentication
-- Multer (file upload)
-
-### Utilities & Tools
-- dotenv
-- Nodemon
-- REST APIs
+- Multer
 
 ---
 
 ## 🧪 Environment Setup
 
-### Backend (`/backend/.env`)
+### 📂 Backend (`/backend/.env`)
+
+Create a `.env` file inside the backend folder:
+
+```env
+PORT=5000
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_secret_key
+```
+
+---
 
 ## 🔧 Run the Backend
 
@@ -79,16 +76,52 @@ This system is suitable for **HR tools, internal hiring platforms, and referral-
 cd backend
 npm install
 npm run dev
+```
 
+---
 
-### Backend (`/backend/.env`)
+### 📂 Frontend (`/frontend/.env`)
 
-## 🔧 Run the Backend
+Create a `.env` file inside the frontend folder:
+
+```env
+VITE_API_URL=https://refreal-system.onrender.com/api
+```
+
+---
+
+## 🔧 Run the Frontend
 
 ```bash
-cd backend
+cd frontend
 npm install
 npm run dev
+```
 
+---
 
+## 🌐 Live Backend (Render)
 
+```
+https://refreal-system.onrender.com
+```
+
+---
+
+## 🔑 Demo Login Credentials
+
+```
+Email: demo@referral.com
+Password: Demo@123
+```
+
+---
+
+## 🌐 Access URLs
+
+```
+Frontend (Local): http://localhost:5173
+Backend (Live): https://refreal-system.onrender.com
+```
+
+---
